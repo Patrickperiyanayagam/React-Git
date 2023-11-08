@@ -1,0 +1,38 @@
+.pro1{
+    width: 100%;
+    height: 710px;
+    background-color: red;
+}
+.pro2{
+    width: 100%;
+    height: 710px;
+    background-color: blue;
+}
+.pro3{
+    width: 100%;
+    height: 710px;
+    background-color:green;
+}
+.pro4{
+    width: 100%;
+    height: 710px;
+    background-color: aqua;
+}
+.pro5{
+    width: 100%;
+    height: 710px;
+    background-color: violet;
+}
+button{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    margin-top: 300px;
+    margin-left: 650px;
+}
+.c2{
+    background-color: blue;
+}
+.c1{
+    background-color: red;
+}
