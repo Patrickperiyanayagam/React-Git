@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+}
+h1{
+    color: rgb(67, 99, 99);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 30px;
+    height: 60px;
+    /* margin-left: 20px; */
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+button{
+    width: 100px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: azure;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1:hover{
+    font-size: 50px;
+    transition-duration: 2s;
+}
+button:hover{
+    background-color: rgb(112, 112, 147);
+}
