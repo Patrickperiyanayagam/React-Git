@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(E:\Workspace\activity1\src\Image\img.jpg) ;
+    height: 95vh;
+    
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border:solid black 1px;
+    width:30vw;
+    height:60vh;
+    border: 2px solid;
+    outline: none;
+    border: none;
+    border: solid 2px whitesmoke;
+    border-radius: 30px;
+    box-shadow:
+    2.8px 2.8px 2.2px rgba(0, 0, 0, 0.025),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.036),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.044),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.05),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.057),
+    100px 100px 80px rgba(0, 0, 0, 0.07)
+  ;
+  /* backdrop-filter: blur(10px); */
+}
+}
+.un{
+    width: 300px;
+    height: 50px;
+    background: transparent;
+    border:2px solid whitesmoke;
+    border-radius: 40px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+    font-size: 17px;
+    outline:none;
+    color: #ffff;
+}
+.pass{
+    width: 300px;
+    height: 50px;
+    background: transparent;
+    border:2px solid whitesmoke;
+    border-radius: 40px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+    font-size: 17px;
+    outline:none;
+    outline: none;
+}
+.remember{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.remember label input{
+    accent-color: #ffff;
+}
+.remember a{
+    text-decoration: none;
+    color: #ffff;
+}
+.remember a:hover{
+    text-decoration: underline;
+}
+.button{
+    font-size: larger;
+    width: 325px;
+    height: 50px;
+    border:2px solid whitesmoke;
+    border-radius: 40px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.checkbox{
+    margin-right: 60px;
+}
+.division{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    padding-bottom: 10px;
+    color: #ffff;
+}
+::placeholder{
+    color: #ffff;
+}
+label{
+    color: #ffff;
+}
+a{
+    color: #ffff;
+}
+.forgot{
+    color: #ffff;
+}
