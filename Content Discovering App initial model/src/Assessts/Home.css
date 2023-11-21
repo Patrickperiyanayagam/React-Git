@@ -1,0 +1,852 @@
+*{
+    margin: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.grid_body{
+    background-color:white;
+}
+.grid_Navigation{
+    background-color:whitesmoke;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.grid_Navigation .grid_appname{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    right: 25%;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* height: 100%; */
+    /* left: 10%; */
+}
+.grid_navlink{
+    display: flex;
+    position: relative;
+    /* left: 30%; */
+    /* text-align: center; */
+    font-size: 20px;
+    font-weight: bold;
+    gap: 30px;
+}
+.grid_account{
+    color:gray;
+    position: relative;
+    left:  20%;
+}
+.grid_recommend{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 10%;
+    height: 150px;
+    width: 88vw;
+    flex-direction: column;
+}
+.grid_button{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+
+/* -------------------------GRID -> 1 -----------------------------------*/
+.grid1{
+    display: grid;
+    /* width: 500px; */
+    width: 100%;
+    height: 400px;
+    grid-template-columns: auto minmax(300px,400px) minmax(300px,400px) minmax(300px,400px) auto;
+    /* grid-template-columns: 1fr 4fr 4fr 4fr 1fr; */
+    /* grid-template-rows: 1fr; */
+    /* grid-auto-rows: 300px; */
+    gap: 20px;
+}
+.grid1 .grid1component1{
+    /* background-color: white; */
+    border-radius: 20px;
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.083),
+    0px 0px 5.3px rgba(0, 0, 0, 0.093),
+    0px 0px 10px rgba(0, 0, 0, 0.094),
+    0px 0px 17.9px rgba(0, 0, 0, 0.093),
+    0px 0px 33.4px rgba(0, 0, 0, 0.098),
+    0px 0px 80px rgba(0, 0, 0, 0.16)
+    ;
+    /* display: grid; */
+    /* grid-template-rows: minmax(200px,200px) minmax(20px,20px) minmax(160px,160px) minmax(20px,20px); */
+}
+.grid1 .grid1component2{
+    /* background-color:lightcoral; */
+    /* background-color: lightgray; */
+    /* background-color: white; */
+    border-radius: 20px;
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.083),
+    0px 0px 5.3px rgba(0, 0, 0, 0.093),
+    0px 0px 10px rgba(0, 0, 0, 0.094),
+    0px 0px 17.9px rgba(0, 0, 0, 0.093),
+    0px 0px 33.4px rgba(0, 0, 0, 0.098),
+    0px 0px 80px rgba(0, 0, 0, 0.16)
+    ;
+    cursor: pointer;
+}
+.grid1 .grid1component3{
+    /* background-color: lightgreen; */
+    border-radius: 20px;
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.083),
+    0px 0px 5.3px rgba(0, 0, 0, 0.093),
+    0px 0px 10px rgba(0, 0, 0, 0.094),
+    0px 0px 17.9px rgba(0, 0, 0, 0.093),
+    0px 0px 33.4px rgba(0, 0, 0, 0.098),
+    0px 0px 80px rgba(0, 0, 0, 0.16)
+    ;
+    cursor: pointer;
+}
+.grid1 .grid1component1 .g1c1bgp1{
+    height: 200px;
+    width: 100%;
+    background-image: url('https://www.5paisa.com/finschool/wp-content/uploads/2023/05/3.svg');
+    background-size: 100% 200px;
+    background-color: lightcyan;
+    /* background-color: '#fff'; */
+    border-radius: 20px 20px 0px 0px;
+    cursor: pointer;
+}
+.grid1 .grid1component1 .g1c1bgm1{
+    width: 97.5%;
+    height: 20px;
+    display: flex;
+    position: relative;
+    left: 10px;
+    cursor: pointer;
+    /* background-color: rgb(73, 235, 184); */
+}
+.grid1 .grid1component1 .g1c1c1{
+    width: 97.5%;
+    height: 160px;
+    margin-left: 10px;
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    cursor: pointer;
+    /* background-color: rgb(136, 70, 70); */
+}
+.grid1 .grid1component1 .g1c1l1{
+    margin-left: 5px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 15px;
+    position: relative;
+    left: 5%;
+    width: 94%;
+    cursor: pointer;
+}
+.grid1 .grid1component1 .g1c1l1 span{
+    position: relative;
+    left: 50%;
+}
+
+
+
+.grid1 .grid1component2 .g1c2bgp2{
+    height: 200px;
+    width: 100%;
+    background-image: url('https://cf-images.eu-west-1.prod.boltdns.net/v1/static/3910869736001/3f7e3a8d-621c-44ce-a7bb-a103deabb507/b7073eaa-7227-4c16-a875-391d5fb04611/1280x720/match/image.jpg');
+    background-size: 100% 200px;
+    background-color: lightcyan;
+    border-radius: 20px 20px 0px 0px;
+}
+.grid1 .grid1component2 .g1c2bgm2{
+    width: 97.5%;
+    height: 20px;
+    display: flex;
+    position: relative;
+    left: 10px;
+    /* background-color: rgb(73, 235, 184); */
+}
+.grid1 .grid1component2 .g1c2c2{
+    width: 98%;
+    height: 160px;
+    margin-left: 10px;
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    /* background-color: rgb(136, 70, 70); */
+}
+.grid1 .grid1component2 .g1c2l2{
+    margin-left: 5px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 15px;
+    position: relative;
+    left: 5%;
+    width: 94%;
+}
+.grid1 .grid1component2 .g1c2l2 span{
+    position: relative;
+    left: 50%;
+}
+
+
+.grid1 .grid1component3 .g1c3bgp3{
+    height: 200px;
+    width: 100%;
+    background-image: url('https://www.isvarmurti.com/blog/wp-content/uploads/2017/04/politics.png');
+    background-size: 100% 200px;
+    background-color: lightcyan;
+    border-radius: 20px 20px 0px 0px;
+}
+.grid1 .grid1component3 .g1c3bgm3{
+    width: 97.5%;
+    height: 20px;
+    display: flex;
+    position: relative;
+    left: 10px;
+    /* background-color: rgb(73, 235, 184); */
+}
+.grid1 .grid1component3 .g1c3c3{
+    width: 98%;
+    height: 160px;
+    margin-left: 10px;
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    /* background-color: rgb(136, 70, 70); */
+}
+.grid1 .grid1component3 .g1c3l3{
+    margin-left: 5px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 15px;
+    position: relative;
+    left: 5%;
+    width: 94%;
+}
+.grid1 .grid1component3 .g1c3l3 span{
+    position: relative;
+    left: 50%;
+}
+
+
+
+.grid1 .grid1component1:hover{
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.172),
+    0px 0px 5.3px rgba(0, 0, 0, 0.192),
+    0px 0px 10px rgba(0, 0, 0, 0.193),
+    0px 0px 17.9px rgba(0, 0, 0, 0.192),
+    0px 0px 33.4px rgba(0, 0, 0, 0.202),
+    0px 0px 80px rgba(0, 0, 0, 0.33)
+    ;
+}
+.grid1 .grid1component2:hover{
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.172),
+    0px 0px 5.3px rgba(0, 0, 0, 0.192),
+    0px 0px 10px rgba(0, 0, 0, 0.193),
+    0px 0px 17.9px rgba(0, 0, 0, 0.192),
+    0px 0px 33.4px rgba(0, 0, 0, 0.202),
+    0px 0px 80px rgba(0, 0, 0, 0.33)
+    ;
+}
+.grid1 .grid1component3:hover{
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.172),
+    0px 0px 5.3px rgba(0, 0, 0, 0.192),
+    0px 0px 10px rgba(0, 0, 0, 0.193),
+    0px 0px 17.9px rgba(0, 0, 0, 0.192),
+    0px 0px 33.4px rgba(0, 0, 0, 0.202),
+    0px 0px 80px rgba(0, 0, 0, 0.33)
+    ;
+}
+/* --------------------GRID -> 2 -----------------------------------*/
+
+.grid2{
+    display: grid;
+    height: 400px;
+    width: 100%;
+    grid-template-columns: auto minmax(300px,400px) minmax(300px,400px) minmax(300px,400px) auto;
+    gap: 20px;
+}
+.grid2 .grid2component1{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.083),
+    0px 0px 5.3px rgba(0, 0, 0, 0.093),
+    0px 0px 10px rgba(0, 0, 0, 0.094),
+    0px 0px 17.9px rgba(0, 0, 0, 0.093),
+    0px 0px 33.4px rgba(0, 0, 0, 0.098),
+    0px 0px 80px rgba(0, 0, 0, 0.16)
+  ;
+  cursor: pointer;
+}
+.grid2 .grid2component2{
+    border-radius: 20px;
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.083),
+    0px 0px 5.3px rgba(0, 0, 0, 0.093),
+    0px 0px 10px rgba(0, 0, 0, 0.094),
+    0px 0px 17.9px rgba(0, 0, 0, 0.093),
+    0px 0px 33.4px rgba(0, 0, 0, 0.098),
+    0px 0px 80px rgba(0, 0, 0, 0.16)
+    ;
+    cursor: pointer;
+}
+.grid2 .grid2component3{
+    border-radius: 20px;
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.083),
+    0px 0px 5.3px rgba(0, 0, 0, 0.093),
+    0px 0px 10px rgba(0, 0, 0, 0.094),
+    0px 0px 17.9px rgba(0, 0, 0, 0.093),
+    0px 0px 33.4px rgba(0, 0, 0, 0.098),
+    0px 0px 80px rgba(0, 0, 0, 0.16)
+    ;
+    cursor: pointer;
+}
+.grid2 .grid2component1 .g2c1bgp1{
+    height: 200px;
+    width: 100%;
+    background-image: url('https://www.herofincorp.com/public/admin_assets/upload/blog/64b91a06ab1c8_food%20business%20ideas.webp');
+    background-size: 100% 200px;
+    background-color: lightcyan;
+    border-radius: 20px 20px 0px 0px;
+}
+.grid2 .grid2component1 .g2c1bgm1{
+    width: 97.5%;
+    height: 20px;
+    display: flex;
+    position: relative;
+    left: 10px;
+}
+.grid2 .grid2component1 .g2c1c1{
+    width: 97.5%;
+    height: 160px;
+    margin-left: 10px;
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.grid2 .grid2component1 .g2c1l1{
+    width: 94%;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+    left: 5%;
+}
+.grid2 .grid2component1 .g2c1l1 span{
+    position: relative;
+    left: 50%;
+}
+
+
+
+.grid2 .grid2component2 .g2c2bgp2{
+    height: 200px;
+    width: 100%;
+    background-image: url('https://cdn.fordhamram.com/wp-content/uploads/economics-750x375.jpg');
+    background-size: 100% 200px;
+    background-color: lightcyan;
+    border-radius: 20px 20px 0px 0px;
+}
+.grid2 .grid2component2 .g2c2bgm2{
+    width: 97.5%;
+    height: 20px;
+    display: flex;
+    position: relative;
+    left: 10px;
+}
+.grid2 .grid2component2 .g2c2c2{
+    width: 98%;
+    height: 160px;
+    margin-left: 10px;
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.grid2 .grid2component2 .g2c2l2{
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+    left: 5%;
+    width: 94%;
+}
+.grid2 .grid2component2 .g2c2l2 span{
+    position: relative;
+    left: 50%;
+}
+
+
+.grid2 .grid2component3 .g2c3bgp3{
+    height: 200px;
+    width: 100%;
+    background-image: url('https://5.imimg.com/data5/SELLER/Default/2020/10/OX/FX/UB/98833934/entertainment-programs.jpg');
+    background-size: 100% 200px;
+    background-color: lightcyan;
+    border-radius: 20px 20px 0px 0px;
+}
+.grid2 .grid2component3 .g2c3bgm3{
+    width: 97.5%;
+    height: 20px;
+    display: flex;
+    position: relative;
+    left: 10px;
+}
+.grid2 .grid2component3 .g2c3c3{
+    width: 98%;
+    height: 160px;
+    margin-left: 10px;
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.grid2 .grid2component3 .g2c3l3{
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+    left: 5%;
+    width: 94%;
+}
+.grid2 .grid2component3 .g2c3l3 span{
+    position: relative;
+    left: 50%;
+}
+
+
+
+.grid2 .grid2component1:hover{
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.172),
+    0px 0px 5.3px rgba(0, 0, 0, 0.192),
+    0px 0px 10px rgba(0, 0, 0, 0.193),
+    0px 0px 17.9px rgba(0, 0, 0, 0.192),
+    0px 0px 33.4px rgba(0, 0, 0, 0.202),
+    0px 0px 80px rgba(0, 0, 0, 0.33)
+;
+}
+.grid2 .grid2component2:hover{
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.172),
+    0px 0px 5.3px rgba(0, 0, 0, 0.192),
+    0px 0px 10px rgba(0, 0, 0, 0.193),
+    0px 0px 17.9px rgba(0, 0, 0, 0.192),
+    0px 0px 33.4px rgba(0, 0, 0, 0.202),
+    0px 0px 80px rgba(0, 0, 0, 0.33)
+;
+}
+.grid2 .grid2component3:hover{
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.172),
+    0px 0px 5.3px rgba(0, 0, 0, 0.192),
+    0px 0px 10px rgba(0, 0, 0, 0.193),
+    0px 0px 17.9px rgba(0, 0, 0, 0.192),
+    0px 0px 33.4px rgba(0, 0, 0, 0.202),
+    0px 0px 80px rgba(0, 0, 0, 0.33)
+;
+}
+
+/* ----------------------GRID -> 3----------------------------------------*/
+
+
+.grid3{
+    display: grid;
+    height: 400px;
+    width: 100%;
+    grid-template-columns: auto minmax(300px,400px) minmax(300px,400px) minmax(300px,400px) auto;
+    gap: 20px;
+}
+.grid3 .grid3component1{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.083),
+    0px 0px 5.3px rgba(0, 0, 0, 0.093),
+    0px 0px 10px rgba(0, 0, 0, 0.094),
+    0px 0px 17.9px rgba(0, 0, 0, 0.093),
+    0px 0px 33.4px rgba(0, 0, 0, 0.098),
+    0px 0px 80px rgba(0, 0, 0, 0.16)
+;
+cursor: pointer;
+}
+.grid3 .grid3component2{
+    border-radius: 20px;
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.083),
+    0px 0px 5.3px rgba(0, 0, 0, 0.093),
+    0px 0px 10px rgba(0, 0, 0, 0.094),
+    0px 0px 17.9px rgba(0, 0, 0, 0.093),
+    0px 0px 33.4px rgba(0, 0, 0, 0.098),
+    0px 0px 80px rgba(0, 0, 0, 0.16)
+    ;
+    cursor: pointer;
+}
+.grid3 .grid3component3{
+    border-radius: 20px;
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.083),
+    0px 0px 5.3px rgba(0, 0, 0, 0.093),
+    0px 0px 10px rgba(0, 0, 0, 0.094),
+    0px 0px 17.9px rgba(0, 0, 0, 0.093),
+    0px 0px 33.4px rgba(0, 0, 0, 0.098),
+    0px 0px 80px rgba(0, 0, 0, 0.16)
+    ;
+    cursor: pointer;
+}
+.grid3 .grid3component1 .g3c1bgp1{
+    height: 200px;
+    width: 100%;
+    background-image: url('https://www.searchenginejournal.com/wp-content/uploads/2021/11/future-of-chatbots-6275107ede4d7-sej.png');
+    background-size: 100% 200px;
+    background-color: lightcyan;
+    border-radius: 20px 20px 0px 0px;
+}
+.grid3 .grid3component1 .g3c1bgm1{
+    width: 97.5%;
+    height: 20px;
+    display: flex;
+    position: relative;
+    left: 10px;
+}
+.grid3 .grid3component1 .g3c1c1{
+    width: 97.5%;
+    height: 160px;
+    margin-left: 10px;
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.grid3 .grid3component1 .g3c1l1{
+    width: 94%;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+    left: 5%;
+}
+.grid3 .grid3component1 .g3c1l1 span{
+    position: relative;
+    left: 50%;
+}
+
+
+
+.grid3 .grid3component2 .g3c2bgp2{
+    height: 200px;
+    width: 100%;
+    background-image: url('https://assets.thehansindia.com/h-upload/2022/04/28/1289430-web-3.webp');
+    background-size: 100% 200px;
+    background-color: lightcyan;
+    border-radius: 20px 20px 0px 0px;
+}
+.grid3 .grid3component2 .g3c2bgm2{
+    width: 97.5%;
+    height: 20px;
+    display: flex;
+    position: relative;
+    left: 10px;
+}
+.grid3 .grid3component2 .g3c2c2{
+    width: 98%;
+    height: 160px;
+    margin-left: 10px;
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.grid3 .grid3component2 .g3c2l2{
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+    left: 5%;
+    width: 94%;
+}
+.grid3 .grid3component2 .g3c2l2 span{
+    position: relative;
+    left: 50%;
+}
+
+
+.grid3 .grid3component3 .g3c3bgp3{
+    height: 200px;
+    width: 100%;
+    background-image: url('https://imageio.forbes.com/specials-images/imageserve/5f1a62d942a6387efb759310/What-Can-3D-Printing-Be-Used-For--Here-Are-10-Amazing-Examples/960x0.jpg?height=473&width=711&fit=bounds');
+    background-size: 100% 200px;
+    background-color: lightcyan;
+    border-radius: 20px 20px 0px 0px;
+}
+.grid3 .grid3component3 .g3c3bgm3{
+    width: 97.5%;
+    height: 20px;
+    display: flex;
+    position: relative;
+    left: 10px;
+}
+.grid3 .grid3component3 .g3c3c3{
+    width: 98%;
+    height: 160px;
+    margin-left: 10px;
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.grid3 .grid3component3 .g3c3l3{
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+    left: 5%;
+    width: 94%;
+}
+.grid3 .grid3component3 .g3c3l3 span{
+    position: relative;
+    left: 50%;
+}
+
+
+
+.grid3 .grid3component1:hover{
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.172),
+    0px 0px 5.3px rgba(0, 0, 0, 0.192),
+    0px 0px 10px rgba(0, 0, 0, 0.193),
+    0px 0px 17.9px rgba(0, 0, 0, 0.192),
+    0px 0px 33.4px rgba(0, 0, 0, 0.202),
+    0px 0px 80px rgba(0, 0, 0, 0.33)
+;
+}
+.grid3 .grid3component2:hover{
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.172),
+    0px 0px 5.3px rgba(0, 0, 0, 0.192),
+    0px 0px 10px rgba(0, 0, 0, 0.193),
+    0px 0px 17.9px rgba(0, 0, 0, 0.192),
+    0px 0px 33.4px rgba(0, 0, 0, 0.202),
+    0px 0px 80px rgba(0, 0, 0, 0.33)
+;
+}
+.grid3 .grid3component3:hover{
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.172),
+    0px 0px 5.3px rgba(0, 0, 0, 0.192),
+    0px 0px 10px rgba(0, 0, 0, 0.193),
+    0px 0px 17.9px rgba(0, 0, 0, 0.192),
+    0px 0px 33.4px rgba(0, 0, 0, 0.202),
+    0px 0px 80px rgba(0, 0, 0, 0.33)
+;
+}
+
+/* --------------------GRID -> 4 ----------------------------------*/
+
+
+.grid4{
+    display: grid;
+    height: 400px;
+    width: 100%;
+    grid-template-columns: auto minmax(300px,400px) minmax(300px,400px) minmax(300px,400px) auto;
+    gap: 20px;
+}
+.grid4 .grid4component1{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.083),
+    0px 0px 5.3px rgba(0, 0, 0, 0.093),
+    0px 0px 10px rgba(0, 0, 0, 0.094),
+    0px 0px 17.9px rgba(0, 0, 0, 0.093),
+    0px 0px 33.4px rgba(0, 0, 0, 0.098),
+    0px 0px 80px rgba(0, 0, 0, 0.16)
+;
+cursor: pointer;
+}
+.grid4 .grid4component2{
+    border-radius: 20px;
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.083),
+    0px 0px 5.3px rgba(0, 0, 0, 0.093),
+    0px 0px 10px rgba(0, 0, 0, 0.094),
+    0px 0px 17.9px rgba(0, 0, 0, 0.093),
+    0px 0px 33.4px rgba(0, 0, 0, 0.098),
+    0px 0px 80px rgba(0, 0, 0, 0.16)
+    ;
+    cursor: pointer;
+}
+.grid4 .grid4component3{
+    border-radius: 20px;
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.083),
+    0px 0px 5.3px rgba(0, 0, 0, 0.093),
+    0px 0px 10px rgba(0, 0, 0, 0.094),
+    0px 0px 17.9px rgba(0, 0, 0, 0.093),
+    0px 0px 33.4px rgba(0, 0, 0, 0.098),
+    0px 0px 80px rgba(0, 0, 0, 0.16)
+    ;
+    cursor: pointer;
+}
+.grid4 .grid4component1 .g4c1bgp1{
+    height: 200px;
+    width: 100%;
+    background-image: url('https://media.npr.org/assets/img/2023/01/10/being-late-npr_wide-3592ae0a00d5488af0c4d701f708e7dafe2ed74b-s1100-c50.jpg');
+    background-size: 100% 200px;
+    background-color: lightcyan;
+    border-radius: 20px 20px 0px 0px;
+}
+.grid4 .grid4component1 .g4c1bgm1{
+    width: 97.5%;
+    height: 20px;
+    display: flex;
+    position: relative;
+    left: 10px;
+}
+.grid4 .grid4component1 .g4c1c1{
+    width: 97.5%;
+    height: 160px;
+    margin-left: 10px;
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.grid4 .grid4component1 .g4c1l1{
+    width: 94%;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+    left: 5%;
+}
+.grid4 .grid4component1 .g4c1l1 span{
+    position: relative;
+    left: 50%;
+}
+
+
+
+.grid4 .grid4component2 .g4c2bgp2{
+    height: 200px;
+    width: 100%;
+    background-image: url('https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1024-512,f_auto,q_auto:best/newscms/2017_26/2053956/170627-better-grocery-store-main-se-539p.jpg');
+    background-size: 100% 200px;
+    background-color: lightcyan;
+    border-radius: 20px 20px 0px 0px;
+}
+.grid4 .grid4component2 .g4c2bgm2{
+    width: 97.5%;
+    height: 20px;
+    display: flex;
+    position: relative;
+    left: 10px;
+}
+.grid4 .grid4component2 .g4c2c2{
+    width: 98%;
+    height: 160px;
+    margin-left: 10px;
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.grid4 .grid4component2 .g4c2l2{
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+    left: 5%;
+    width: 94%;
+}
+.grid4 .grid4component2 .g4c2l2 span{
+    position: relative;
+    left: 50%;
+}
+
+
+.grid4 .grid4component3 .g4c3bgp3{
+    height: 200px;
+    width: 100%;
+    background-image: url('https://wp-krypton.s3.amazonaws.com/wp-content/uploads/sites/3/2019/04/Trussle-demo-BOE.jpg');
+    background-size: 100% 200px;
+    background-color: lightcyan;
+    border-radius: 20px 20px 0px 0px;
+}
+.grid4 .grid4component3 .g4c3bgm3{
+    width: 97.5%;
+    height: 20px;
+    display: flex;
+    position: relative;
+    left: 10px;
+}
+.grid4 .grid4component3 .g4c3c3{
+    width: 98%;
+    height: 160px;
+    margin-left: 10px;
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.grid4 .grid4component3 .g4c3l3{
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+    left: 5%;
+    width: 94%;
+}
+.grid4 .grid4component3 .g4c3l3 span{
+    position: relative;
+    left: 50%;
+}
+
+
+
+.grid4 .grid4component1:hover{
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.172),
+    0px 0px 5.3px rgba(0, 0, 0, 0.192),
+    0px 0px 10px rgba(0, 0, 0, 0.193),
+    0px 0px 17.9px rgba(0, 0, 0, 0.192),
+    0px 0px 33.4px rgba(0, 0, 0, 0.202),
+    0px 0px 80px rgba(0, 0, 0, 0.33)
+;
+}
+.grid4 .grid4component2:hover{
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.172),
+    0px 0px 5.3px rgba(0, 0, 0, 0.192),
+    0px 0px 10px rgba(0, 0, 0, 0.193),
+    0px 0px 17.9px rgba(0, 0, 0, 0.192),
+    0px 0px 33.4px rgba(0, 0, 0, 0.202),
+    0px 0px 80px rgba(0, 0, 0, 0.33)
+;
+}
+.grid4 .grid4component3:hover{
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.172),
+    0px 0px 5.3px rgba(0, 0, 0, 0.192),
+    0px 0px 10px rgba(0, 0, 0, 0.193),
+    0px 0px 17.9px rgba(0, 0, 0, 0.192),
+    0px 0px 33.4px rgba(0, 0, 0, 0.202),
+    0px 0px 80px rgba(0, 0, 0, 0.33)
+;
+}
+
