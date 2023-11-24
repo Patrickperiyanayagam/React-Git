@@ -1,0 +1,25 @@
+*{
+  margin: 0px;
+}
+.end{
+  /* background-color: aqua; */
+  width: 100vw;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ku{
+  width: 10%;
+  height: 10%;
+  border-radius: 15px;
+  /* background-color: aqua; */
+  background: transparent;
+  border: none;
+  margin-bottom: 90px;
+  color: #fff;
+}
+body{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
